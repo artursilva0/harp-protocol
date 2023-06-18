@@ -26,11 +26,6 @@
   - [Release notes:](#release-notes)
 
 
-<div style="width: 100%;">
-  <img src="test.svg" style="width: 100%;" alt="Click to see the source">
-</div>
-
-
 ## Introduction
 
 This document defines the standards that new Harp Devices should strive to follow. The goal is to create a common ground for the development and operation of Harp devices, to allow quick and easy integration of new devices into the existing ecosystem. While some registers and functionalities are not mandatory, it is strongly recommended that they are implemented or, at least, considered with compatibility in mind.
@@ -171,6 +166,10 @@ gantt
 
 
 #### **`R_OPERATION_CTRL` (U16) – Operation mode configuration**
+
+<div style="width: 100%;">
+  <img src="test.svg" style="width: 100%;" alt="Click to see the source">
+</div>
 
 Address: `010`
 
