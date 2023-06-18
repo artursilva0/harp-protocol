@@ -26,6 +26,27 @@
   - [Release notes:](#release-notes)
 
 
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          display: flex;
+          width: 100%;
+          height: 300px;
+          background-color: black;
+          color: white;
+        }
+      </style>
+
+      <div class="container">
+        <h1>Test 👋</h1>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
+
+
 ## Introduction
 
 This document defines the standards that new Harp Devices should strive to follow. The goal is to create a common ground for the development and operation of Harp devices, to allow quick and easy integration of new devices into the existing ecosystem. While some registers and functionalities are not mandatory, it is strongly recommended that they are implemented or, at least, considered with compatibility in mind.
